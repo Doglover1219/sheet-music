@@ -1,4 +1,4 @@
-\header { 
+\header {
   title = "La Foule"
   composer = "Édith Piaf"
 }
@@ -48,7 +48,17 @@
           r4. e8 e4 |
           e4. e8 dis[ e] |
           fis4. fis8 g[ fis] |
-          fis2.
+          fis2. |
+          \pageBreak
+          r4. b,8 b4 |
+          c4. c8 c[ d] |
+          e4. fis8 e[ dis] |
+          e4 c2 |
+          r4. e8 fis4 |
+          a4. g8 g[ fis] |
+          a4. d,8 d e |
+          d2. |
+          r4. b8 b4
         }
       >>
       \new Lyrics  \lyricsto "one" {
@@ -103,6 +113,17 @@
           c, <g' c e> <g c e> |
           a, <fis' a c> <fis a c> |
           b, <a' b dis> <a b dis>
+          \pageBreak
+          <b b,>4 r r |
+          e,,4 <e' g b> <e g b> |
+          c <e g c> <e g c> |
+          a, <a' c e> <a c e> |
+          e, <a' c e> <a c e> |
+          e, <fis' a d> <fis a d> |
+          a, <fis' a d> <fis a d> |
+          \break
+          g, <g' b d> <g b d> |
+          g, <g' b d> <g b d> |
         }
       >>
     >>
